@@ -18,13 +18,10 @@ class Matriz
     void setMatriz(int **matriz);
     int **getMatriz();
 
-    int leArquivo();
-    int **limparMatriz(int **matriz, int tam);
-    int percorrerMatriz(int **matriz, int tam);
-    void mostrarCaminho(int **matriz, int tam);
+    int LerArquivo();
+    int **LimparMatriz(int **matriz, int tam);
+    int PercorrerMatriz(int **matriz, int tam);
+    void MostrarCaminho(int **matriz, int tam);
 
 };
 #endif
-
-
-
