@@ -17,23 +17,18 @@ int **Matriz::getMatriz()
   return this->matriz;
 }
 
-int Matriz::leArquivo(){
+int Matriz::LerArquivo(){
   FILE *arq;
   int n, t, vc = 0;
   int c = 0, l = 0;
   int **matriz;
 
   //Variáveis n, t e vc correspondem a número de uma posição da matriz, tamanho da matriz e o valor da soma da caminhada, respectivamente.
-
-  cout <<"O Caminho Guloso" << endl;
-  cout <<"O Caminho Guloso determina o maior número entre 5 direcoes, no qual" << endl;
-  cout <<"o caminho sera demarcado pelo número -1 e no final sera mostrado o" << endl;
-  cout <<"caminho feito, alem de mostrar a soma de todos os numeros no final." << endl << endl;
   
   arq = fopen("dataset/input.data", "rt");
   if (arq == NULL)
   {
-    cout << "Problemas na CRIACAO do arquivo\n";
+    cout << "Falha na leitura do arquivo.\n";
     return 0;
   }
 
@@ -64,16 +59,16 @@ int Matriz::leArquivo(){
     {
       l = 0;
       c = 0;
-      vc += percorrerMatriz(matriz, t);
+      vc += PercorrerMatriz(matriz, t);
     }
   }
-  matriz = limparMatriz(matriz, t);
+  matriz = LimparMatriz(matriz, t);
   cout << "A soma total de todos os caminhos percorridos foi: " << vc << endl;
   fclose(arq);
   return 0;
 }
 
-int **Matriz::limparMatriz(int **matriz, int t)
+int **Matriz::LimparMatriz(int **matriz, int t)
 {
   for(int j = 0; j < t; j++)
   {
@@ -84,12 +79,10 @@ int **Matriz::limparMatriz(int **matriz, int t)
   return matriz;
 }
 
-void Matriz::mostrarCaminho(int **matriz, int t)
+void Matriz::MostrarCaminho(int **matriz, int t)
 {
 
-  int c;
-  
-  cout << endl << "Caminho percorrido na " << c+1 << "a matriz" << endl << endl;
+  cout << endl << "Caminho percorrido na seguinte matriz:" << endl << endl;
   for(int j = 0; j < t; j++)
   {
     for(int k = 0; k < t; k++)
@@ -99,10 +92,9 @@ void Matriz::mostrarCaminho(int **matriz, int t)
     }
     cout << endl;
   }
-  c++;
 }
 
-int Matriz::percorrerMatriz(int **matriz, int t)
+int Matriz::PercorrerMatriz(int **matriz, int t)
 {
   int vc = matriz[0][0];
   int aux, auxL, auxC;
@@ -207,7 +199,7 @@ int Matriz::percorrerMatriz(int **matriz, int t)
     }
   }
   matriz[t-1][t-1] = -1;
-  mostrarCaminho(matriz, t);
+  MostrarCaminho(matriz, t);
   cout << endl << "Soma dos numeros neste caminho: " << vc << endl;
   return vc;
 }
