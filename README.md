@@ -64,4 +64,9 @@
 
 <h2>Considerações Finais</h2>
 
-<p>A partir do que foi mostrado, é possível perceber que o programa não </p>
+<p>A partir do que foi mostrado, é possível perceber que o programa não utilizou de linguagem abstrata e foi elaborado de forma simples e eficiente, utilizando apenas de 4 funções para rodar o programa e verificar o caminho com os maiores valores numéricos, soma-los e realizar a soma de todos os caminhos feitos nas matrizes. </p>
+
+<h2>Contato</h2>
+
+<p><i>joaomarcoshess@gmail.com</i></p>
+
