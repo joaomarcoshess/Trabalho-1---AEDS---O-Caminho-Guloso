@@ -2,7 +2,9 @@
 
 <h2>Introdução </h2>
 
-<p> A necessidade de encontrar um dado em específico dentre diversos outros dados vem se tornando cada dia mais importante para obter a informação mais precisa para determinada situação. Com isso, a ideia de implementação do código do Caminho Guloso é um exemplo de como  </p>
+<p> A necessidade de encontrar um dado em específico dentre diversos outros dados vem se tornando cada dia mais importante para obter a informação mais precisa para determinada situação. Com isso, a ideia de implementação do código do Caminho Guloso é um exemplo de como é possível escolher pelo caminho mais interessante a partir da análise de todas as possibilidades. </p>
+
+<p> O programa consiste na utilização de K matrizes quadradas de tamanho [N/N], a fim de determinar o caminho com os maiores valores numéricos próximos de determinada posição. </p>
 
 
 <h2>Objetivo</h2>
@@ -62,4 +64,4 @@
 
 <h2>Considerações Finais</h2>
 
-<p></p>
+<p>A partir do que foi mostrado, é possível perceber que o programa não </p>
