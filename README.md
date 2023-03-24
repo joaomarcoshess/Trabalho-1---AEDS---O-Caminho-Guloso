@@ -16,10 +16,10 @@
 
 <p>Foram utilizados 5 arquivos para a implementação do código do Caminho Guloso:</p>
 
-<li>
+<li></li>
   <code>main.cpp</code> : Arquivo principal de execução do código. <br>
-  <code>Matriz.hpp</code> : Base da criação das funções do código. <br>
-  <code>Matriz.cpp</code> : Elaboração das funções criadas no arquivo "Matriz.hpp". <br>
-  <code>input.data</code> : Contém as matrizes para serem executadas no código. <br>
-  <code>Makefile</code> : Automatiza a compilação do código. <br>
+  <li><code>Matriz.hpp</code> : Base da criação das funções do código. <br></li>
+  <li><code>Matriz.cpp</code> : Elaboração das funções criadas no arquivo "Matriz.hpp". <br></li>
+  <li><code>input.data</code> : Contém as matrizes para serem executadas no código. <br></li>
+  <li><code>Makefile</code> : Automatiza a compilação do código. <br></li>
 </li>
