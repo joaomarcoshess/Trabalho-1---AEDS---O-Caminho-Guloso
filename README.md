@@ -10,3 +10,16 @@
 <p>O objetivo da aplicação do trabalho "O Caminho Guloso" é chegar na última linha e na última coluna da matriz, somando os valores do caminho no qual o programa percorreu e demarcando-os com -1, para facilitar a visualização do caminho percorrido. O programa começa na posição [0,0] e pode apenas andar a 1 casa de distância de sua posição atual. Além disso, o programa pode escolher entre 5 direções: esquerda, direita, diagonal esquerda baixo, diagonal direita baixo e baixo, comparando todas essas posições se for o caso e optando pela posição que tiver o maior valor numérico.  </p>
 
 <p>É importante salientar que o programa não pode fazer analise das outras 3 posições restantes: diagonal esquerda cima, diagonal direita cima e cima.</p>
+
+
+<h2>Arquivos</h2>
+
+<p>Foram utilizados 5 arquivos para a implementação do código do Caminho Guloso:</p>
+
+<li>
+  <code>main.cpp</code> : Arquivo principal de execução do código. <br>
+  <code>Matriz.hpp</code> : Base da criação das funções do código. <br>
+  <code>Matriz.cpp</code> : Elaboração das funções criadas no arquivo "Matriz.hpp". <br>
+  <code>input.data</code> : Contém as matrizes para serem executadas no código. <br>
+  <code>Makefile</code> : Automatiza a compilação do código. <br>
+</li>
