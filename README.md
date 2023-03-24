@@ -40,7 +40,7 @@
 <p> Foram utilizadas 2 matrizes de tamanho 7x7 para a compilação a seguir: </p>
 
 <p align="center">
-  <img src="Downloads/Exemplo1.jpg">
+  <img src="https://user-images.githubusercontent.com/75141271/227565589-8596f7d2-da22-43e4-8a1e-7f0b4a1f15af.jpg">
 </p>
 
 <p></p> Ao analizarmos a segunda figura, podemos perceber que:<br><br>
