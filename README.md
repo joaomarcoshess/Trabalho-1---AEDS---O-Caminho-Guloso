@@ -33,3 +33,10 @@
   <li><code>void MostrarCaminho(int **matriz, int tam);</code> : Mostra o caminho percorrido pelo programa, a soma do caminho de cada matriz e a soma de todos os caminhos das matrizes. Foram passados o parâmetro da matriz alocada a ser mostrada e o parâmetro do tamanho da matriz. <br></li>
   <li><code>int PercorrerMatriz(int **matriz, int tam);</code> : Função que é chamada em "LerArquivo". Percorre a matriz alocada, comparando entre 5 posições o maior valor numérico entre elas, demarcando cada posição passada com o número -1 até chegar na última posição [N/N]. Foram utilizados diversas condições e variáveis auxiliares para maior precisão e organização do código. No parâmetro, temos a matriz alocada que será percorrida e o tamanho dela. <br></li>
   
+<h2>Exemplos de Compilação</h2>
+
+<p> Foram utilizadas matrizes de tamanho 7x7 para a compilação a seguir: </p>
+
+<p align="center">
+  ![Screenshot](Exemplo1.png)
+</p>
