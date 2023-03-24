@@ -16,10 +16,19 @@
 
 <p>Foram utilizados 5 arquivos para a implementação do código do Caminho Guloso:</p>
 
-<li></li>
-  <code>main.cpp</code> : Arquivo principal de execução do código. <br>
+
+  <li><code>main.cpp</code> : Arquivo principal de execução do código. <br></li>
   <li><code>Matriz.hpp</code> : Base da criação das funções do código. <br></li>
   <li><code>Matriz.cpp</code> : Elaboração das funções criadas no arquivo "Matriz.hpp". <br></li>
-  <li><code>input.data</code> : Contém as matrizes para serem executadas no código. <br></li>
+  <li><code>input.data</code> : Contém as matrizes para serem executadas no código e está armazenado na pasta "dataset" <br></li>
   <li><code>Makefile</code> : Automatiza a compilação do código. <br></li>
-</li>
+
+
+<h2>Funções</h2>
+
+<p>Foram utilizadas 4 funções para organização e otimização do programa:</p>
+
+  <li><code>int LerArquivo();</code> : Função que lê todas as matrizes do arquivo "input.data" e chama a função "PercorrerMatriz" para a análise do caminho e soma do mesmo, além de chamar a função "LimparMatriz" para ser possível a leitura das outras matrizes.<br></li>
+  <li><code>int **LimparMatriz(int **matriz, int tam);</code> : Limpa a matriz lida pela função "LerArquivo". O parâmetro "**matriz" puxa a matriz que será feita a limpeza de memória alocada e o parâmetro "tam" indica o tamanho da matriz.<br></li>
+  <li><code>main.cpp</code> : Arquivo principal de execução do código. <br></li>
+  <li><code>main.cpp</code> : Arquivo principal de execução do código. <br></li>
