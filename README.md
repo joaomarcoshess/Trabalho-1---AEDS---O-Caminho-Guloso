@@ -30,5 +30,6 @@
 
   <li><code>int LerArquivo();</code> : Função que lê todas as matrizes do arquivo "input.data" e chama a função "PercorrerMatriz" para a análise do caminho e soma do mesmo, além de chamar a função "LimparMatriz" para ser possível a leitura das outras matrizes.<br></li>
   <li><code>int **LimparMatriz(int **matriz, int tam);</code> : Limpa a matriz lida pela função "LerArquivo". O parâmetro "**matriz" puxa a matriz que será feita a limpeza de memória alocada e o parâmetro "tam" indica o tamanho da matriz.<br></li>
-  <li><code>main.cpp</code> : Arquivo principal de execução do código. <br></li>
-  <li><code>main.cpp</code> : Arquivo principal de execução do código. <br></li>
+  <li><code>void MostrarCaminho(int **matriz, int tam);</code> : Mostra o caminho percorrido pelo programa, a soma do caminho de cada matriz e a soma de todos os caminhos das matrizes. Foram passados o parâmetro da matriz alocada a ser mostrada e o parâmetro do tamanho da matriz. <br></li>
+  <li><code>int PercorrerMatriz(int **matriz, int tam);</code> : Função que é chamada em "LerArquivo". Percorre a matriz alocada, comparando entre 5 posições o maior valor numérico entre elas, demarcando cada posição passada com o número -1 até chegar na última posição [N/N]. Foram utilizados diversas condições e variáveis auxiliares para maior precisão e organização do código. No parâmetro, temos a matriz alocada que será percorrida e o tamanho dela. <br></li>
+  
