@@ -35,8 +35,31 @@
   
 <h2>Exemplos de Compilação</h2>
 
-<p> Foram utilizadas matrizes de tamanho 7x7 para a compilação a seguir: </p>
+<p> Foram utilizadas 2 matrizes de tamanho 7x7 para a compilação a seguir: </p>
 
 <p align="center">
-  ![Screenshot](Exemplo1.png)
+  <img src="Downloads/Exemplo1.jpg">
 </p>
+
+<p></p> Ao analizarmos a segunda figura, podemos perceber que:<br><br>
+
+<li>O caminho é demarcado por -1, então fica perceptível o caminho adotado pelo programa;</li>
+<li>Não é possível acessar as posições de cima da matriz;</li>
+<li>Quando o programa chega na última linha, ele só vai para a direita;</li>
+<li>O programa finaliza quando a última posição demarcada é a da última linha e última coluna, em todas as matrizes;</li>
+<li>É mostrado a soma do caminho após feita a análise de cada matriz;</li>
+<li>A última atividade do programa é somar todos os caminhos das matrizes.</li>
+
+<h2>Compilação e Execução do Programa</h2>
+
+<p>Através do makefile, é posição utilizar comandos que realizam o processo de compilação e execução do programa. A seguir, temos alguns comandos que podem ser utilizados:</p><br>
+
+<li><b>make</b>: Realiza a compilação do código por meio do gcc, no qual o resultado vai para a pasta build.</li><br>
+<li><b>make run</b>: Executa o programa armazenado na pasta build após este ser compilado.</li><br>
+<li><b>make clean</b>: Exclui a última compilação feita anteriormente na pasta build.</li><br><br>
+
+<p>Também é possível executar o programa através do site de hospedagem de código, Replit, onde foi realizado a programação do código do "Caminho Guloso": <link>https://replit.com/@Joao-MarcosMa57/Trabalho-1-AEDS</link></p>
+
+<h2>Considerações Finais</h2>
+
+<p></p>
